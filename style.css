@@ -1,0 +1,41 @@
+body {
+    background-color: bisque;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    height: 100px;
+    width: 36px;
+    border: 2px grey solid;
+    position: relative;
+    top: 104px;
+    z-index: 1;
+    line-height: 150px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    color: white;
+}
+.black-keys  kbd + kbd {
+    margin-left: 24px;
+}
+#E_key + #T_key {
+    margin-left: 88px;
+}
+.white-keys kbd {
+    display: inline-block;
+    background-color: white;
+    height: 200px;
+    width: 66px;
+    border: 2px grey solid;
+    position: relative;
+    z-index: 0;
+    margin-left: -5px;
+    line-height: 300px;
+    font-size: 30px;
+}
